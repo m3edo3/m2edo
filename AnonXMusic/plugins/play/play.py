@@ -1,4 +1,4 @@
-import random
+port random
 import string
 
 from pyrogram import filters
@@ -32,6 +32,8 @@ from config import BANNED_USERS, lyrical
             "vplay", 
             "تشغيل",
             " شغل",
+            "فديو",
+            " بوده",
             "cplay", 
             "cvplay", 
             "playforce", 
