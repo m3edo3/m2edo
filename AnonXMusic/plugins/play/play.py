@@ -25,14 +25,13 @@ from AnonXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
+@app.on_message(filters.command(["تشغيل","فيديو", "شغل"])
+)
 @app.on_message(
     filters.command( 
         [ 
-            "play", 
-            "vplay", 
-            "تشغيل",
-            " فيديو", 
-            "شغل",
+            "/play", 
+            "/vplay",
             "cplay", 
             "cvplay", 
             "playforce", 
