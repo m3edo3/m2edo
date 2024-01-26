@@ -1,4 +1,4 @@
-port random
+import random
 import string
 
 from pyrogram import filters
